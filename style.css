@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 40px auto;
+}
+
+.issue {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin: 40px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  transition: background 0.2s ease;
+}
+
+.issue:hover {
+  background-color: #f9f9f9;
+}
+
+.issue img {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+}
+
+.issue-text h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.issue-text p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  color: #666;
+}
