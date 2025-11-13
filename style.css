@@ -15,7 +15,7 @@ body {
 
 .logo {
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
   display: block;
   margin: 40px auto;
 }
@@ -72,4 +72,5 @@ body {
   border-radius: 5px;
   font-size: 0.8em;
 }
+
 
