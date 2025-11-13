@@ -1,7 +1,10 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=EB+Garamond:wght@400;700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: sans-serif; /* default body font */
   background-color: #ffffff;
   color: #111;
 }
@@ -42,21 +45,27 @@ body {
   border: 1px solid #ddd;
 }
 
+/* All issue headings (h2) use Lora */
 .issue-text h2 {
   margin: 0;
   font-size: 1.5em;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+/* All issue subtitles (h3.subtitle) use EB Garamond */
+.issue-text h3.subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #000;
+  margin: 0.2em 0;
 }
 
 .issue-text p {
   margin: 5px 0 0;
   font-size: 1em;
   color: #666;
-}
-.issue-text h3.subtitle {
-  font-family: 'Playfair Display', serif;
-  font-size: 1em; /* Smaller font size */
-  color: #000;
-  margin: 0.2em 0;
 }
 
 .tags {
@@ -72,5 +81,3 @@ body {
   border-radius: 5px;
   font-size: 0.8em;
 }
-
-
